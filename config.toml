@@ -12,6 +12,20 @@ googleAnalytics = "UA-165099679-2"
   author = "Hiroshima.lisp"
   Copyright = "CC BY"
   description = "広島大学を中心に活動するLispコミュニティ"
+  logo = "logo.svg"
+
+[params.math]
+  global = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+  engine = "katex"  # options: "katex", "mathjax". default is "mathjax".
+
+[taxonomies]
+  tag = "tags"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[[params.css]]
+  name = "custom.css"
 
 ## Social links
 [[params.socialIcons]]
@@ -41,13 +55,6 @@ googleAnalytics = "UA-165099679-2"
   url = "/blog/license"
   style= "font-size:0.8em"
 
-[params.math]
-  global = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
-  engine = "katex"  # options: "katex", "mathjax". default is "mathjax".
-
-[[params.css]]
-  name = "custom.css"
-
 # See https://feathericons.com/
 # The value of pre is the icon name
 [menu]
@@ -63,9 +70,3 @@ googleAnalytics = "UA-165099679-2"
     name = "Tags"
     url = "/tags/"
     weight = 3
-
-[taxonomies]
-  tag = "tags"
-
-[markup.goldmark.renderer]
-  unsafe = true
