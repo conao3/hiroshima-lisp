@@ -1,0 +1,88 @@
+#+title:
+#+author: conao3
+#+date: <2020-05-03 Sun>
+#+options: ^:{}
+
+[[https://github.com/conao3/hiroshima.lisp][https://raw.githubusercontent.com/conao3/files/master/blob/headers/png/hiroshima.lisp.png]]
+[[https://github.com/conao3/hiroshima.lisp/blob/master/LICENSE][https://img.shields.io/github/license/conao3/hiroshima.lisp.svg?style=flat-square]]
+[[https://github.com/conao3/hiroshima.lisp/releases][https://img.shields.io/github/tag/conao3/hiroshima.lisp.svg?style=flat-square]]
+[[https://github.com/conao3/hiroshima.lisp/actions][https://github.com/conao3/hiroshima.lisp/workflows/Main%20workflow/badge.svg]]
+[[https://app.codacy.com/project/conao3/hiroshima.lisp/dashboard][https://img.shields.io/codacy/grade/62a36f4f04524d5e8c758440e8071c45.svg?logo=codacy&style=flat-square]]
+[[https://www.patreon.com/conao3][https://img.shields.io/badge/patreon-become%20a%20patron-orange.svg?logo=patreon&style=flat-square]]
+[[https://twitter.com/conao_3][https://img.shields.io/badge/twitter-@conao__3-blue.svg?logo=twitter&style=flat-square]]
+[[https://conao3-support.slack.com/join/shared_invite/enQtNjUzMDMxODcyMjE1LWUwMjhiNTU3Yjk3ODIwNzAxMTgwOTkxNmJiN2M4OTZkMWY0NjI4ZTg4MTVlNzcwNDY2ZjVjYmRiZmJjZDU4MDE][https://img.shields.io/badge/chat-on_slack-blue.svg?logo=slack&style=flat-square]]
+[[https://app.netlify.com/sites/lisp/deploys][https://api.netlify.com/api/v1/badges/848233ef-a374-46f0-a148-3348b19d826c/deploy-status]]
+
+* Table of Contents
+- [[#description][Description]]
+- [[#install][Install]]
+- [[#usage][Usage]]
+- [[#customize][Customize]]
+- [[#information][Information]]
+  - [[#community][Community]]
+  - [[#contribution][Contribution]]
+  - [[#migration][Migration]]
+  - [[#license][License]]
+  - [[#author][Author]]
+  - [[#contributors][Contributors]]
+
+* Description
+[[https://lisp.netlify.app][Hiroshima.lisp]] blog source.
+
+* Usage
+** Add article
+Create article from template.
+
+#+begin_src shell
+  hugo new blog/{{blog-title}}
+#+end_src
+
+** Local server
+Serve blog data via local server.
+
+#+begin_src shell
+  hugo server -D
+#+end_src
+
+** Deploy
+Deploy [[https://lisp.netlify.app][lisp.netlify.app]].
+Just push master, auto deploy via netlify.
+
+#+begin_src shell
+  git push origin master
+#+end_src
+
+* Information
+** License
+- All articles (sentence) are distributed under CC BY.
+  #+begin_example
+    Creative Commons Attribution 4.0 International Public License (CC BY)
+    Copyright (c) Hiroshima.lisp - https://lisp.netlify.app
+    https://creativecommons.org/licenses/by/4.0/legalcode
+  #+end_example
+
+- All source code are distributed under CC0.
+- All cited source code respects the license of the cited source.
+
+** Icon license
+Icon made by [[https://www.flaticon.com/authors/freepik][freepik]] from [[https://www.flaticon.com/][www.flaticon.com]].
+
+#+begin_quote
+License summary
+Our license allows you to use the content:
+
+For commercial and personal projects.
+On digital or printed media.
+For an unlimited number of times and perpetually.
+Anywhere in the world.
+To make modifications and derived works.
+
+*This text is a summary for information only.
+It does not constitute any contractual obligations.
+For more information, please read our Terms of Use before using the content.
+#+end_quote
+
+[[https://www.freepikcompany.com/legal][Terms of use]]
+
+** Author
+- Naoya Yamashita ([[https://github.com/conao3][conao3]])
